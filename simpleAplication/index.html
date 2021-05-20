@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <h2>Home</h2>
+    <select id="mySelect"  class="form-control" onchange="mySelect()">
+        <option id="1">test 3</option>
+        <option id="2">home</option>
+        <option id="3">NEW TEST</option>
+        <option id="4">LET ME DIE</option>
+    </select>
+</br>
+
+    <h2>Edit home</h2>
+    <div class="input_section">
+        <input type="text" class="input" onblur="inputBlur()" onfocus="inputFocus()"  value="" id="myInput" onkeydown="enterPress(event)">
+        <button class ="text-center btn" id="myButton" onclick="rewriteOption()" > save</button>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

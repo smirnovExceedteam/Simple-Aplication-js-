@@ -1,0 +1,90 @@
+body {
+    font-family: "Recursive", sans-serif;
+    padding-left: 50px;
+    width: 600px;
+    padding-top: 20px;
+}
+
+
+
+option {
+    text-align: center;
+}
+.input_section {
+    display: flex;
+}
+
+
+#myButton {
+    margin: 0, 0, 0, 0;
+    height: 38px;
+    border: 1px solid rgb(207, 214, 227);
+    display: flex;
+    align-items: center;
+    background-color: white;
+    outline: 0px;
+    border-radius: 0 4px 4px 0;
+    border-left: 0px;
+    width: 59px;
+    padding-left: 12px;
+    color:black !important;
+}
+#myButton:focus
+{
+    border: 1px solid rgb(123, 169, 255);
+    margin-left: -1px;
+    box-shadow:0 0 2px !important
+}
+.input
+{
+    border-radius: none;
+    outline: 0px;
+    border: 1px solid rgb(207, 214, 227);
+    padding-left: 15px;
+}
+.inputFocus
+{
+    border:0px;
+    border: 1px solid rgb(170, 200, 255);
+
+}
+
+#mySelect
+{
+    width: 300px
+}
+#myInput
+{
+    width: 450px;
+    border-radius: 4px 0px 0px 4px;
+}
+h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+option {
+    margin-top: 10px;
+}
+input
+{
+    width: 10px;
+}
+
+.trigered_input
+{
+ border: 1px solid red !important;
+
+}
+.trigered_button
+{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    outline: 0px;
+    border: 1px solid red !important;
+    border-left: none;
+    width: 59px !important;    
+    align-items: center !important;
+    padding-left: 12px;
+    border-left: none !important;
+}
